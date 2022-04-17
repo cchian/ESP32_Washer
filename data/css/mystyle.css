@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'BoonJot';
+    font-style: normal;
+    font-weight: 700;
+    src: url('BoonJot.ttf');
+}
+div{
+    font-family: 'BoonJot';
+}
+.strokered{
+    color: #FF0000;
+    text-shadow:-1px -1px 0 #ffaaaa,1px -1px 0 #ffaaaa,-1px 1px 0 #aaaaaa,1px 1px 0 #aaaaaa;
+}
+.strokeblue{
+    color: #0000ff;
+    text-shadow:-1px -1px 0 #aaaaff,1px -1px 0 #aaaaff,-1px 1px 0 #aaaaaa,1px 1px 0 #aaaaaa;
+}
+.c{
+    text-align: center;
+} 
+div,input{
+    padding:5px;
+    font-size:1em;
+} 
+input{
+    width:95%;
+    font-family: 'BoonJot';
+} 
+body{
+    text-align: center;
+    font-family:BoonJot;
+    position: relative;
+} 
+
+.btnoff,.btnoff-no-background,.btnon,.btnon-no-background{
+    height:100px;
+    width:100px;
+}
+.btnoff-no-background{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-indent: -1000em;
+    overflow: hidden;
+    cursor: pointer;
+    cursor: hand;
+}
+.btnoff {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-size:cover;
+    background: transparent url('../img/btnoff.svg') no-repeat center top;
+    text-indent: -1000em;
+    overflow: hidden;
+    cursor: pointer;
+    cursor: hand;
+}
+.btnon-no-background {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-indent: -1000em;
+    overflow: hidden;
+    cursor: pointer;
+    cursor: hand; 
+}
+.btnon {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-size:cover;
+    background: transparent url('../img/btnon.svg') no-repeat center top;
+    text-indent: -1000em;
+    overflow: hidden;
+    cursor: pointer;
+    cursor: hand; 
+}
+.my-container img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 60%;
+    opacity: 0.1;z-index: -1;
+}
+.button{
+    border:0;
+    border-radius:0.3rem;
+    background-color:#00ABFF;
+    color:#fff;
+    line-height:2.4rem;
+    font-size:1.2rem;
+    width:100px;
+} 
+
+button{
+    border:0;
+    border-radius:0.3rem;
+    background-color:#00b516;
+    color:#fff;line-height:2.4rem;
+    font-family:BoonJot;
+    font-size:1.2rem;width:100%;
+} 
+.page{
+    text-align:left;
+    display:inline-block;
+    min-width:260px;
+}
+.q{
+    float: right;
+    width: 64px;
+    text-align: right;
+} 
+
+.crop div ,.l{
+    background: url('../img/wifisignal_all.png') no-repeat left center;background-size: 10em;
+}
+.nl{
+    margin: 0 0px 0 0;
+    width:25px;
+    height:20px;
+}
+.l{
+    margin: 0 0px 0 0;
+    width:25px;
+    height:20px;
+    background-position-x: -145px;
+}
+.crop {
+    width:18px;
+    height: 20px;
+    overflow: hidden;
+}
+.crop div{
+    margin:0;
+    width: 151px;
+}
+.crop .sign0 {
+    height: 20px;
+    margin: -4px 0 0 -5px;
+}
+.crop .sign1 {
+    height: 20px;
+    margin: -4px 0 0 -34px;
+}
+.crop .sign2 {
+    height: 20px;
+    margin: -4px 0 0 -63px;
+}
+.crop .sign3 {
+    height: 20px;
+    margin: -4px 0 0 -92px;
+}
+.crop .sign4 {
+    height: 20px;
+    margin: -4px 0 0 -120px;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
